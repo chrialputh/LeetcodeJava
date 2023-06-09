@@ -1,6 +1,7 @@
 package No2两数相加;
+
 //Definition for singly-linked list. 单链表的定义。
-public class ListNode {
+public class ListNode  {
     int val;
     ListNode next;
 
