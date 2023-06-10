@@ -1,4 +1,4 @@
-package No2两数相加;
+package MySelf.No2两数相加;
 
 
 public class Main {

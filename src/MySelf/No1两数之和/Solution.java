@@ -1,4 +1,4 @@
-package No1两数之和;
+package MySelf.No1两数之和;
 
 /*
 时间复杂度：O(N²)

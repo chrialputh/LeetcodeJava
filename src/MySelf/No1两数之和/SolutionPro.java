@@ -1,4 +1,4 @@
-package No1两数之和;
+package MySelf.No1两数之和;
 
 import java.util.HashMap;
 import java.util.Map;

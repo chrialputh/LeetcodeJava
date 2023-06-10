@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="gitignore 忽略/out">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="更新刷题结构">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/SolutionPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/SolutionPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +41,6 @@
         <option name="url" value="https://github.com/chrialputh/LeetcodeJava.git" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/No2两数相加/Solution.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -232,7 +235,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686367329899</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="gitignore 忽略/out">
+      <created>1686367357060</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1686367357060</updated>
+    </task>
+    <task id="LOCAL-00020" summary="更新.gitignore">
+      <created>1686367661873</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686367661873</updated>
+    </task>
+    <task id="LOCAL-00021" summary="更新刷题结构">
+      <created>1686377501435</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686377501435</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,19 +264,22 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -272,7 +299,9 @@
     <MESSAGE value="No2两数之和 Main函数初步&#10;其他类修改" />
     <MESSAGE value="No2两数之和 Main函数完成" />
     <MESSAGE value="gitignore 忽略/out" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore 忽略/out" />
+    <MESSAGE value="更新.gitignore" />
+    <MESSAGE value="更新刷题结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新刷题结构" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
