@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="No2两数之和 Main函数完成">
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="gitignore 忽略/out">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686367114982</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="gitignore 忽略/out">
+      <created>1686367329899</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686367329899</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,7 +271,8 @@
     <MESSAGE value="No2两数之和 Solution类 及单链表类" />
     <MESSAGE value="No2两数之和 Main函数初步&#10;其他类修改" />
     <MESSAGE value="No2两数之和 Main函数完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="No2两数之和 Main函数完成" />
+    <MESSAGE value="gitignore 忽略/out" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore 忽略/out" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
