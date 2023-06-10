@@ -8,7 +8,7 @@ package Follow.N1_Rotate_Array_in_Java;
  */
 
 class Solution1 {
-    public void rotate(int[] nums, int k) {
+    void rotate(int[] nums, int k) {
 
         if (k > nums.length)
 

@@ -8,7 +8,7 @@ This solution is like a bubble sort  这个解决方案就像一个气泡类的
 时间复杂度：O（n*k）。
  */
 class Solution2 {
-    public static void rotate(int[] arr, int order) {
+    void rotate(int[] arr, int order) {
         if (arr == null || order < 0) {
             throw new IllegalArgumentException("Illegal argument!");
         }

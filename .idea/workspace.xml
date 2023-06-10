@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="更新刷题结构">
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Solution1 复杂度分析">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No1两数之和/SolutionPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No1两数之和/SolutionPro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MySelf/No2两数相加/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MySelf/No2两数相加/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,10 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -66,7 +66,20 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2615519&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.No2两数相加.Main">
+  <component name="RunManager" selected="Application.Follow.N1_Rotate_Array_in_Java.Main">
+    <configuration name="Follow.N1_Rotate_Array_in_Java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Follow.N1_Rotate_Array_in_Java.Main" />
+      <module name="LeetcodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Follow.N1_Rotate_Array_in_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="No1两数之和.Main" />
       <module name="LeetcodeJava" />
@@ -95,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Follow.N1_Rotate_Array_in_Java.Main" />
         <item itemvalue="Application.No2两数相加.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -256,7 +270,42 @@
       <option name="project" value="LOCAL" />
       <updated>1686377501435</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="更新刷题结构">
+      <created>1686380651598</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1686380651598</updated>
+    </task>
+    <task id="LOCAL-00023" summary="package Follow.N1_Rotate_Array_in_Java：&#10;solution1 解决方案">
+      <created>1686382808156</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1686382808156</updated>
+    </task>
+    <task id="LOCAL-00024" summary="增加复杂度分析注释">
+      <created>1686383199222</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1686383199222</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Solution2 冒泡交换数值">
+      <created>1686385252172</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1686385252172</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Solution1 复杂度分析">
+      <created>1686385525781</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686385525781</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +350,11 @@
     <MESSAGE value="gitignore 忽略/out" />
     <MESSAGE value="更新.gitignore" />
     <MESSAGE value="更新刷题结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新刷题结构" />
+    <MESSAGE value="package Follow.N1_Rotate_Array_in_Java：&#10;solution1 解决方案" />
+    <MESSAGE value="增加复杂度分析注释" />
+    <MESSAGE value="Solution2 冒泡交换数值" />
+    <MESSAGE value="Solution1 复杂度分析" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution1 复杂度分析" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
