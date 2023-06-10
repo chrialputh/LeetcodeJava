@@ -23,8 +23,9 @@ target/
 .idea
 *.iws
 *.iml
-*.xml
 *.ipr
+.mvn
+mvnw*
 /out/
 ###  vs vscode###
 .vs
