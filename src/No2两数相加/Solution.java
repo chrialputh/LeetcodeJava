@@ -4,10 +4,13 @@ class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //定义一个新链表伪指针，用来指向头指针，返回结果
         ListNode prev = new ListNode(0);
+
         //定义一个进位数的指针，用来存储当两数之和大于10的时候，需要进位的数
         int carry = 0;
+
         //定义一个可移动的指针，用来指向存储的每一位数
         ListNode cur = prev;
+
         //当l1不等于null  或  l2 等于空时，就进入循环
         while(l1!=null || l2!=null){
             //如果l1 不等于null时，就取他的值，等于null时，就赋值0，保持两个链表具有相同的位数
