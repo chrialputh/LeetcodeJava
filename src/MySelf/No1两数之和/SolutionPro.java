@@ -3,6 +3,10 @@ package MySelf.No1两数之和;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+时间复杂度：O(N)，其中 N 是数组中的元素数量。对于每一个元素x，我们可以0(1)地寻找 target -x。
+空间复杂度：O(N)，其中 N 是数组中的元素数量。主要为哈希表的开销。
+ */
 class SolutionPro {
     public int[] twoSum(int[] nums, int target) {
         final int length = nums.length;
