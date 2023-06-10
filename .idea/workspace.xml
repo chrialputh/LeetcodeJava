@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="No2两数之和 Main函数完成">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/No2两数相加/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/No2两数相加/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686366747843</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="No2两数之和 Main函数完成">
+      <created>1686367085482</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1686367085482</updated>
+    </task>
+    <task id="LOCAL-00017" summary="No2两数之和 Main函数完成">
+      <created>1686367114982</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686367114982</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
