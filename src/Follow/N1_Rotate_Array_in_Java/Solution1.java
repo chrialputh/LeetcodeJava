@@ -3,6 +3,8 @@ package Follow.N1_Rotate_Array_in_Java;
 我们可以以一种简单的方式创建一个新的数组，
 然后将元素复制到新的数组中。
 然后使用System.arraycopy()更改原始数组。
+时间复杂度：O（n）
+空间复杂度：O（2n）
  */
 
 class Solution1 {
