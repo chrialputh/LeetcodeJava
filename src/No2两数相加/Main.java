@@ -12,7 +12,7 @@ public class Main {
         分别在栈内创建ListNode类型 的 Next NextTow
         分别指向 listNode1.next listNode2.next所指的堆空间
          */
-        listNode1.next = new ListNode();
+        listNode1.next = new ListNode();  //这里必须要让listNode1.next有所指向，下条语句才能通过
         ListNode Next = listNode1.next;
         for (int i = ints.length - 2; i >= 0; i--) {
             Next.val = ints[i];    //当前指针所指的区块val值为ints[i]
