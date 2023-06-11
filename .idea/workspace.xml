@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Solution1 复杂度分析">
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="后进先出堆栈的应用---&gt;Solution完成">
+      <change afterPath="$PROJECT_DIR$/src/Follow/N2_Evaluate_Reverse_Polish_Notation/Solution2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Follow/N2_Evaluate_Reverse_Polish_Notation/Solution1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,13 +66,26 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2615519&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Follow.N1_Rotate_Array_in_Java.Main">
+  <component name="RunManager" selected="Application.Follow.N2_Evaluate_Reverse_Polish_Notation.Main">
     <configuration name="Follow.N1_Rotate_Array_in_Java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Follow.N1_Rotate_Array_in_Java.Main" />
       <module name="LeetcodeJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Follow.N1_Rotate_Array_in_Java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Follow.N2_Evaluate_Reverse_Polish_Notation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Follow.N2_Evaluate_Reverse_Polish_Notation.Main" />
+      <module name="LeetcodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Follow.N2_Evaluate_Reverse_Polish_Notation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,9 +119,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Follow.N2_Evaluate_Reverse_Polish_Notation.Test" />
+      <module name="LeetcodeJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Follow.N2_Evaluate_Reverse_Polish_Notation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Follow.N2_Evaluate_Reverse_Polish_Notation.Main" />
         <item itemvalue="Application.Follow.N1_Rotate_Array_in_Java.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.No2两数相加.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -305,7 +333,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686385525781</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Solution3 写完">
+      <created>1686387266792</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1686387266792</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Main写完">
+      <created>1686387287976</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1686387287976</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修改类内方法范围">
+      <created>1686387379288</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686387379288</updated>
+    </task>
+    <task id="LOCAL-00030" summary="后进先出堆栈的应用---&gt;Solution完成">
+      <created>1686480490013</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1686480490013</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,7 +410,11 @@
     <MESSAGE value="增加复杂度分析注释" />
     <MESSAGE value="Solution2 冒泡交换数值" />
     <MESSAGE value="Solution1 复杂度分析" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution1 复杂度分析" />
+    <MESSAGE value="Solution3 写完" />
+    <MESSAGE value="Main写完" />
+    <MESSAGE value="修改类内方法范围" />
+    <MESSAGE value="后进先出堆栈的应用---&gt;Solution完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="后进先出堆栈的应用---&gt;Solution完成" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
