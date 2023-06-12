@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Follow增加资料库:题目目录.md">
-      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="N3最长回文子字符串初步写入" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -393,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686583444175</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="N3最长回文子字符串初步写入">
+      <created>1686585472162</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1686585472162</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -423,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两树之和&#10;暴力枚举法" />
     <MESSAGE value="无" />
     <MESSAGE value="哈希解法图示" />
     <MESSAGE value="哈希解法类" />
@@ -448,7 +448,8 @@
     <MESSAGE value="后进先出堆栈的应用---&gt;Main函数完成" />
     <MESSAGE value="Follow增加资料库" />
     <MESSAGE value="Follow增加资料库:题目目录.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Follow增加资料库:题目目录.md" />
+    <MESSAGE value="N3最长回文子字符串初步写入" />
+    <option name="LAST_COMMIT_MESSAGE" value="N3最长回文子字符串初步写入" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
