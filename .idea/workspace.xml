@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="后进先出堆栈的应用---&gt;Solution完成">
-      <change afterPath="$PROJECT_DIR$/src/Follow/N2_Evaluate_Reverse_Polish_Notation/Solution2.java" afterDir="false" />
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Follow增加资料库">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +360,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686480490013</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="后进先出堆栈的应用---&gt;Solution2完成，与Solution2解法一样">
+      <created>1686481094796</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1686481094796</updated>
+    </task>
+    <task id="LOCAL-00032" summary="后进先出堆栈的应用---&gt;Main函数完成">
+      <created>1686481173294</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1686481173294</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Follow增加资料库">
+      <created>1686481261857</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1686481261857</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +411,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改忽略配置文件" />
     <MESSAGE value="两树之和题目" />
     <MESSAGE value="两树之和&#10;暴力枚举法" />
     <MESSAGE value="无" />
@@ -414,7 +433,10 @@
     <MESSAGE value="Main写完" />
     <MESSAGE value="修改类内方法范围" />
     <MESSAGE value="后进先出堆栈的应用---&gt;Solution完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="后进先出堆栈的应用---&gt;Solution完成" />
+    <MESSAGE value="后进先出堆栈的应用---&gt;Solution2完成，与Solution2解法一样" />
+    <MESSAGE value="后进先出堆栈的应用---&gt;Main函数完成" />
+    <MESSAGE value="Follow增加资料库" />
+    <option name="LAST_COMMIT_MESSAGE" value="Follow增加资料库" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
