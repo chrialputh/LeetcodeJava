@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Follow增加资料库">
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="Follow增加资料库:题目目录.md">
+      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Follow/N2_Evaluate_Reverse_Polish_Notation/Solution1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution1.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -381,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686481261857</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Follow增加资料库:题目目录.md">
+      <created>1686583444175</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1686583444175</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,7 +423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两树之和题目" />
     <MESSAGE value="两树之和&#10;暴力枚举法" />
     <MESSAGE value="无" />
     <MESSAGE value="哈希解法图示" />
@@ -436,7 +447,8 @@
     <MESSAGE value="后进先出堆栈的应用---&gt;Solution2完成，与Solution2解法一样" />
     <MESSAGE value="后进先出堆栈的应用---&gt;Main函数完成" />
     <MESSAGE value="Follow增加资料库" />
-    <option name="LAST_COMMIT_MESSAGE" value="Follow增加资料库" />
+    <MESSAGE value="Follow增加资料库:题目目录.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Follow增加资料库:题目目录.md" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
