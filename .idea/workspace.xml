@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="N3最长回文子字符串初步写入" />
+    <list default="true" id="e783933b-501d-4b74-b72b-fb2b466d9a54" name="Changes" comment="N3最长回文子字符串---Solution3完成，其算法最有并且简单，思想：找中心，向两边扩散">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,8 @@
     <setting file="file://$PROJECT_DIR$/src/Follow/N1_Rotate_Array_in_Java/Solution2.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Follow/N2_Evaluate_Reverse_Polish_Notation/Solution1.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution1.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution2.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Follow/N3_Longest_Palindromic_Substring/Solution3.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,7 +69,7 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.2615519&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Follow.N2_Evaluate_Reverse_Polish_Notation.Main">
+  <component name="RunManager" selected="Application.Follow.N3_Longest_Palindromic_Substring.Main">
     <configuration name="Follow.N1_Rotate_Array_in_Java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Follow.N1_Rotate_Array_in_Java.Main" />
       <module name="LeetcodeJava" />
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="No1两数之和.Main" />
+    <configuration name="Follow.N3_Longest_Palindromic_Substring.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Follow.N3_Longest_Palindromic_Substring.Main" />
       <module name="LeetcodeJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="No1两数之和.*" />
+          <option name="PATTERN" value="Follow.N3_Longest_Palindromic_Substring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Follow.N3_Longest_Palindromic_Substring.Main" />
         <item itemvalue="Application.Follow.N2_Evaluate_Reverse_Polish_Notation.Main" />
         <item itemvalue="Application.Follow.N1_Rotate_Array_in_Java.Main" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.No2两数相加.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +399,35 @@
       <option name="project" value="LOCAL" />
       <updated>1686585472162</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="N3最长回文子字符串---Solution1完成">
+      <created>1686650139768</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1686650139768</updated>
+    </task>
+    <task id="LOCAL-00037" summary="N3最长回文子字符串---Solution2完成">
+      <created>1686655865127</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1686655865127</updated>
+    </task>
+    <task id="LOCAL-00038" summary="N3最长回文子字符串---Solution2注释修改">
+      <created>1686664903521</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1686664903521</updated>
+    </task>
+    <task id="LOCAL-00039" summary="N3最长回文子字符串---Solution3完成，其算法最有并且简单，思想：找中心，向两边扩散">
+      <created>1686665018112</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1686665018112</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -424,10 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="无" />
-    <MESSAGE value="哈希解法图示" />
-    <MESSAGE value="哈希解法类" />
-    <MESSAGE value="main函数测试" />
     <MESSAGE value="No2两数之和 题目及图解" />
     <MESSAGE value="空" />
     <MESSAGE value="No2两数之和 Solution类 及单链表类" />
@@ -449,7 +478,11 @@
     <MESSAGE value="Follow增加资料库" />
     <MESSAGE value="Follow增加资料库:题目目录.md" />
     <MESSAGE value="N3最长回文子字符串初步写入" />
-    <option name="LAST_COMMIT_MESSAGE" value="N3最长回文子字符串初步写入" />
+    <MESSAGE value="N3最长回文子字符串---Solution1完成" />
+    <MESSAGE value="N3最长回文子字符串---Solution2完成" />
+    <MESSAGE value="N3最长回文子字符串---Solution2注释修改" />
+    <MESSAGE value="N3最长回文子字符串---Solution3完成，其算法最有并且简单，思想：找中心，向两边扩散" />
+    <option name="LAST_COMMIT_MESSAGE" value="N3最长回文子字符串---Solution3完成，其算法最有并且简单，思想：找中心，向两边扩散" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

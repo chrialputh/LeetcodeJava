@@ -5,6 +5,15 @@ package Follow.N3_Longest_Palindromic_Substring;
  */
 public class Main {
     public static void main(String[] args) {
+        String s = "absdfggfdsbbsd";
+        String s1 = "eebsnlmn";
+
+        final Solution2 solution2 = new Solution2();
+        System.out.println("solution2  " + solution2.longestPalindrome(s));
+        final Solution3 solution3 = new Solution3();
+        System.out.println("solution3  " + solution3.longestPalindrome(s));
+        final Solution1 solution1 = new Solution1();
+        System.out.println("solution1  " + solution1.longestPalindrome(s));
 
     }
 }
